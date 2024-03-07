@@ -1,5 +1,4 @@
 #include <iostream>
-#include <memory>
 
 struct dataPasien {
     int id;
@@ -50,18 +49,7 @@ int main() {
                     dataPasien* arr = input();
                 }break;
         case 2: 
-                std::cout << "mantap";
-                /* {
-                   std::cout << "tes" ;
-                   dataPasien* arr = arr;
-                   for(int i = 0; i < 2;i++) {
-                   std::cout << "id : " << arr[i].id << std::endl;
-                   std::cout << "nama : " << arr[i].nama << std::endl;
-                   std::cout << "umur : " << arr[i].umur << std::endl;
-                   std::cout << "penyakit : " << arr[i].penyakit << std::endl;
-                   }
-                   } break;
-                   */
+                std::cout << "it breaks";
         case 3:
                 break;
         case 4:
@@ -70,7 +58,7 @@ int main() {
                 break;
     }
 
-    std::cout << "tes" ;
+    std::cout << "it just breaks" ;
     dataPasien* arr = arr;
     for(int i = 0; i < 2;i++) {
         std::cout << "id : " << arr[i].id << std::endl;
